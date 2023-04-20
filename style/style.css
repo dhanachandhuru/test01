@@ -1,0 +1,61 @@
+body{
+
+    background-image: url("image\buryani.png");
+    background-repeat: no-repeat;
+    background-size:1600px 800px;
+}
+h2{
+    text-align: center;
+    color: yellowgreen;
+}
+h1{
+    text-align: center;
+    color: blue;
+    line:height 1em;
+}
+h3{
+    font-size: 30px;
+    padding-left:9em;
+    color: blue;
+    line-height:0.1em;
+}
+
+.container {
+    display: flex;
+    padding-top: 10px;
+    padding-left: 10px;
+    align-items:center;
+}
+.c1{
+    flex:2;
+    order:2;
+    padding-left:5px;
+}
+.c2{
+    flex:2;
+    order:3;
+    align-items:flex-start;
+}
+.c3{
+    flex:2;
+    order:1;
+}
+.loc{
+    color:white;
+    font-size:30px;
+    padding-left:20%;
+}
+.name{
+    text-align:start;
+    color: white;
+    font-size: 30px;
+    line-height: 2em;
+    padding-left: 20%;
+}
+.c4 input{
+    align-items: center;
+    padding-left:1%;
+    background-color: black;
+    color: yellow;
+}
+@media(min-width:468px)

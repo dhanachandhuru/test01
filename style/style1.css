@@ -1,0 +1,68 @@
+body{
+    background-image: url("paper.gif");
+    background-color: white;
+}
+h2{
+    text-align: center;
+    color: yellowgreen;
+}
+h1{
+    text-align: center;
+    color: blue;
+    line:height 1em;
+}
+h3{
+    font-size: 30px;
+    padding-left:9em;
+    color: blue;
+    line-height:0.1em;
+}
+.container {
+    display: flex;
+    padding-top: 10px;
+    padding-left: 10px;
+    align-items:center;
+    background-color: brown;
+}
+.c1{
+    flex:2;
+    order:2;
+    padding-left:5px;
+}
+.c2{
+    flex:2;
+    order:3;
+    align-items:flex-start;
+}
+.c3{
+    flex:2;
+    order:1;
+}
+a{
+    text-align: center;
+}
+.container-1{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 10px;
+    align-items:center;
+}
+.m1{
+    padding-left: 1em;
+    padding-bottom: 2.2em;
+    border-bottom:   0.1em black solid;
+    border-left: 0.1em black solid;
+    border-top: 0.1em black solid;
+    flex:1;
+    order:1;
+}
+.m2{
+    padding-left: 1em;
+    padding-bottom: 1em;
+    border: 0.1em black solid;
+    flex:1;
+    order:2;
+}
+.nv1{
+    display: flex;
+}
